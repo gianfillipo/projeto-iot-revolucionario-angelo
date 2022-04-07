@@ -1,0 +1,129 @@
+body {
+    margin: 0px;
+    font-family: monospace;
+    background-color: black;
+    
+}
+
+.header {
+    background-color: black;
+    width: 100%;
+    border-bottom: 3px solid #32b9cb;
+    height: 100px;
+    align-items: center;
+    font-size: 20px;
+}
+
+a{
+    text-decoration: inherit;
+    color: inherit;
+    cursor: pointer;
+}
+
+
+.container {
+    width: 80%;
+    margin: auto;
+    display: flex;
+    /* Dá liberdade no posicionamento dos elementos. */
+
+}
+
+.header .container {
+    justify-content: space-between;
+    align-items: center;
+    height: 100%;
+}
+
+h1 {
+    margin-top: 0px;
+    color: #32b9cb;
+
+}
+
+.navbar {
+    width: 500px;
+    list-style: none;
+    align-items: center;
+    display: flex;
+    color: orange;
+    justify-content: space-between;
+    display: flex;
+    padding: 0;
+
+}
+
+p {
+    color: white;
+}
+
+
+
+
+.titulo {
+    margin: 0;
+    color: #32b9cb;
+}
+
+li {
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+li:hover {
+    color: white;
+}
+
+/*A especificação de !important ultrapassa a propriedade específica dos elementos filhos; */
+
+
+/* Começo do banner */
+
+.banner {
+    height: 500px;
+    background-image: url(imgs/bg-jelly-fish-para-home.png);
+    background-size: cover;
+}
+
+.banner .card {
+    background-color: #32b9cb;
+    height: 450px;
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    margin-top:20px;
+}
+
+input{
+    height: 30px;
+    border: 2px solid #f7a000;
+    border-radius: 4px;
+}
+
+.btn {
+    font-family: monospace;
+    margin-top: 10px;
+    border: 0;
+    font-weight: 600;
+    background-color: #f7a000;
+    color: white;
+    font-size: 18px;
+    border-radius: 4px;
+    padding: 10px 15px;
+    cursor: pointer;
+}
+
+.btn:hover{
+    color:#32b9cb;
+}
+
+h1,h4{
+    color: #f7a000;
+}
+.card{
+    border-radius: 10px;
+}
+
